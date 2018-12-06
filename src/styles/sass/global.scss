@@ -1,0 +1,61 @@
+body{
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+html {
+  overflow-x: hidden;
+  font-size: 14px;
+}
+.btn{
+  padding: 14px!important;
+  border: none;
+}
+.btn-purple{
+  background: #f10375;
+  border-radius: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  border: none;
+  color: white;
+  padding-left: 4rem!important;
+  padding-right: 4rem!important;
+  overflow: hidden;
+}
+.btn-gradient{
+  background: white;;
+  border-radius: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  border: none;
+  color: black;
+  padding-left: 4rem!important;
+  padding-right: 4rem!important;
+  border: .5px solid #f10375;
+  
+}
+
+.btn-gradient:hover{
+  background: #f10375;
+  border-radius: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  border: none;
+  padding: 2px;
+  color: white;
+}
+.btn-shadow {
+      -webkit-box-shadow: 0px 10px 45px -2px#f10375;
+  -moz-box-shadow: 0px 10px 45px -2px #f10375;
+  box-shadow: 0px 10px 45px -2px #f10375;
+}
+img{
+width: 100%;
+}
+.purple-bg {
+ background: #7c22ff;
+}
+a{
+  color:rgba(255, 255, 255, 0.836);
+}

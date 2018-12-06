@@ -1,0 +1,251 @@
+/*   css  */
+.homepage {
+  padding-bottom: 4rem; }
+
+.navbar-nav {
+  padding-left: 12rem; }
+
+.nav-item {
+  padding-left: 2rem;
+  text-transform: capitalize; }
+
+.main-body-detail {
+  padding: 2rem; }
+  .main-body-detail p {
+    max-width: 36rem;
+    color: rgba(255, 255, 255, 0.836); }
+  .main-body-detail ul {
+    display: contents; }
+    .main-body-detail ul li {
+      list-style: none;
+      color: rgba(255, 255, 255, 0.836); }
+
+.main-body-photo {
+  padding: 3rem; }
+
+.homepage-button button {
+  margin-left: 1rem; }
+
+/* our service */
+.our-service {
+  padding-top: 4rem;
+  padding-bottom: 6rem; }
+
+.our-service-title p {
+  max-width: 45rem;
+  margin: auto; }
+
+.service-card {
+  align-items: center;
+  padding: 1.2rem;
+  box-shadow: 0px 10px 25px -2px #ededed;
+  border-radius: 1rem; }
+  .service-card h5 {
+    font-size: 1.1rem;
+    text-transform: capitalize; }
+  .service-card img {
+    width: 6rem; }
+
+/* our projects */
+.our-product {
+  padding-top: 2rem;
+  padding-bottom: 4rem; }
+
+.our-product-title p {
+  max-width: 46rem; }
+
+.our-product-button {
+  padding-top: 4rem;
+  float: left; }
+
+/* pricing */
+.pricing {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.pricing-card:hover {
+  background: rgba(0, 0, 255, 0.733);
+  color: white; }
+  .pricing-card:hover ul li {
+    color: white; }
+
+.pricing-button-monthly {
+  position: relative;
+  left: 3rem; }
+
+.pricing-card {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 15px -2px #525051;
+  transition: all 1s; }
+  .pricing-card h2 {
+    text-transform: capitalize; }
+  .pricing-card ul {
+    padding: 0px;
+    padding-top: 1rem; }
+    .pricing-card ul li {
+      list-style: none;
+      text-transform: capitalize;
+      line-height: 1.8;
+      text-align: center;
+      color: rgba(128, 128, 128, 0.74); }
+
+.card-button {
+  width: 12rem;
+  margin-left: 3rem !important; }
+
+/* testimonial */
+.testimonial {
+  padding-top: 6rem;
+  padding-bottom: 4rem; }
+
+.client-photo img {
+  border-radius: 50%; }
+
+.client-photo-top-left {
+  top: 2rem;
+  position: relative;
+  left: -1rem; }
+
+.client-photo-middle-left {
+  position: relative;
+  left: 1rem; }
+
+.client-photo-middle-right {
+  position: relative;
+  left: -1rem; }
+
+.client-photo-top-right {
+  top: 2rem;
+  position: relative;
+  left: 1rem; }
+
+.client-photo-bottom-left {
+  position: relative;
+  left: -2rem;
+  top: -1rem; }
+
+.client-photo-bottom-right {
+  position: relative;
+  left: 1rem;
+  top: -1rem; }
+
+.carousel-indicators {
+  padding-top: 2rem; }
+  .carousel-indicators li {
+    background-color: grey !important; }
+
+.client-comment {
+  padding-top: 4rem; }
+
+/* buy egret */
+.egret {
+  background: rgba(0, 0, 255, 0.863);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: white; }
+
+.egret-detail h1 {
+  max-width: 41rem;
+  text-transform: capitalize; }
+
+.egret-detail p {
+  color: rgba(255, 255, 255, 0.884);
+  max-width: 50rem; }
+
+.egret-button {
+  padding-top: 6rem;
+  float: right; }
+
+/* contact form */
+.contact-form {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+.contact-title p {
+  max-width: 45rem;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.589); }
+
+.input-group input {
+  width: 30%;
+  border-radius: 40px;
+  margin-right: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.473);
+  padding: 1rem;
+  text-transform: capitalize;
+  outline: none; }
+
+.input-text {
+  border-radius: 25px;
+  width: 95%;
+  padding: 1rem;
+  margin-right: 2rem;
+  text-transform: capitalize;
+  outline: none; }
+
+.form-button {
+  text-align: center; }
+
+/* footer */
+.footer {
+  background: rgba(0, 0, 255, 0.726);
+  padding-top: 4rem;
+  color: #ffffffbe; }
+  .footer h4 {
+    color: white; }
+
+.about-us-footer p {
+  max-width: 32rem; }
+
+.contact-footer {
+  display: inline-grid; }
+
+.social-media ul {
+  display: contents; }
+  .social-media ul li {
+    list-style: none;
+    line-height: 2; }
+
+.address-footer {
+  display: inline-grid; }
+
+.footer-author {
+  border-top: 1px solid rgba(255, 255, 255, 0.527);
+  padding: 1rem; }
+
+/* media */
+@media (max-width: 850px) {
+  .homepage-button .btn-gradient {
+    margin-bottom: 1rem; }
+  .egret-button {
+    float: left; }
+  .service-card {
+    margin-bottom: 1rem; }
+  .our-product-button {
+    text-align: center; }
+  .pricing-button-monthly {
+    left: 0px;
+    margin-bottom: 1rem; }
+  .pricing-card {
+    margin-bottom: 1rem; }
+  .input-group input {
+    width: 100%;
+    margin-bottom: 1rem; }
+  .product-photo {
+    margin-bottom: 1rem; }
+  .our-product-title {
+    text-align: center; }
+  .client-photo-top-left, .client-photo-middle-left,
+  .client-photo-top-right, .client-photo-middle-right,
+  .client-photo-bottom-left, .client-photo-bottom-right {
+    top: 0rem;
+    left: 0rem;
+    margin-bottom: 1rem; }
+  .toggle-button {
+    background: rgba(255, 255, 255, 0.459); }
+  .navbar-nav {
+    padding-left: 8rem; }
+  .navbar-toggler-icon {
+    background: rgba(255, 255, 255, 0.459); } }
